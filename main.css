@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #number{
+    margin-bottom: 2rem;
+    font-size: 6rem;
+    color: darkcyan;
+  }
+.btn{
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  display: block;
+  border-radius: 5px;
+  border-color: transparent;
+  color: white;
+}
+.btn:active{
+  transform: scale(0.95);
+}
+#options{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 2rem;
+}
+#increase{
+  background-color: yellowgreen;
+}
+#decrease{
+  background-color: crimson;
+}
+#reset{
+  background-color: darkcyan;
+}
